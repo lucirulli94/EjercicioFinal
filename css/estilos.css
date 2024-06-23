@@ -1,0 +1,23 @@
+.full-width-carousel {
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+ .mi-lista li {
+    list-style-type: none;
+    list-style: none;
+}
+.section h1 {
+    text-align: center;
+}
+
+.section h2 {
+    text-align: center;
+}
