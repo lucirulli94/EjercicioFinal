@@ -50,3 +50,20 @@
 .small-card .card-text {
     font-size: 0.9rem;
 }
+
+h1 {
+    text-align: center;
+}
+
+/* Owl carrousel
+/* Estilo básico para el contenedor de la sección */
+.section {
+    padding: 20px;
+}
+
+/* Ajuste para la imagen dentro del carousel */
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
