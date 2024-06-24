@@ -1,13 +1,14 @@
 .full-width-carousel {
     width: 100%;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .carousel-inner img {
     width: 100%;
     height: auto;
     max-height: 550px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
  .mi-lista li {
@@ -20,4 +21,32 @@
 
 .section h2 {
     text-align: center;
+}
+
+/* Estilo para reducir el tamaño de las cards */
+.small-card {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Ajusta el tamaño de las imágenes dentro de las cards */
+.small-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4 / 3; /* Ajusta la relación de aspecto según sea necesario */
+}
+
+/* Reduce el padding dentro de las cards */
+.small-card .card-body {
+    padding: 10px;
+}
+
+/* Reduce el tamaño del texto si es necesario */
+.small-card .card-title {
+    font-size: 1.1rem;
+}
+
+.small-card .card-text {
+    font-size: 0.9rem;
 }

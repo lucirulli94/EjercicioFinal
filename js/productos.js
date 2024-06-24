@@ -40,31 +40,31 @@ const productos = [{
 {
     Nombre: 'Blend Tropical',
     Precio: 8000,
-    Descripcion: 'Blend de cafe con tintes tropicales.',
+    Descripcion: 'Blend de café con tintes tropicales.',
     Imagen: 'tropical.jpg'
 },
 {
     Nombre: 'Blend Amargo',
     Precio: 8000,
-    Descripcion: 'Blend de cafe amargo.',
+    Descripcion: 'Blend de café amargo.',
     Imagen: 'amargo.jpg'
 },
 {
     Nombre: 'Blend Suave',
     Precio: 8000,
-    Descripcion: 'Blend de cafe suave para quienes desean algo no tan potente.',
+    Descripcion: 'Blend de café suave para quienes desean algo no tan potente.',
     Imagen: 'suave.jpg'
 },
 {
     Nombre: 'Blend Fuerte',
     Precio: 8000,
-    Descripcion: 'Blend de cafe de sabor muy fuerte.',
+    Descripcion: 'Blend de café de sabor muy fuerte.',
     Imagen: 'blendfuerte.jpg'
 },
 {
     Nombre: 'Blend Medio',
     Precio: 8000,
-    Descripcion: 'Blend de cafe medio.',
+    Descripcion: 'Blend de café medio.',
     Imagen: 'blendMedio.jpg'
 },
 {
