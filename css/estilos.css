@@ -2,6 +2,7 @@ body {
     
 }
 
+
 .full-width-carousel {
     width: 100%;
     max-width: 100%;
@@ -106,6 +107,7 @@ footer {
     padding: 10px;
     background-color: #f8f9fa;
     margin-top: 20px;
+
 }
 footer a {
     text-decoration: none; /* Elimina la subrayado */
@@ -119,3 +121,8 @@ footer p {
     margin-top: 10px; /* Añade un poco de margen superior al texto */
     color: #555; /* Color de texto para el crédito */
 }
+.footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    }
