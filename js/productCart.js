@@ -1,6 +1,5 @@
-//Aca va el owl carrousel en el bloque de codigo lu $(document).ready(function(){}
 $(document).ready(function () {
-
+    // Hago un for para recorrer la lista
     for (let i = 0; i < productos.length; i++) {
         $('#productos').append(
             '<div class="col">' +
@@ -17,6 +16,7 @@ $(document).ready(function () {
             '</div>'
         )
     }
+    // Aquí debajo va el Smart Cart
     $('#smartcart').smartCart({
         lang: {
             cartTitle: "Carrito de Compras",
